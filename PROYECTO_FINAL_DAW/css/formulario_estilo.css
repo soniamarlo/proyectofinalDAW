@@ -1,0 +1,116 @@
+﻿body {
+    background-image: url(../imagenes/fondo_usuarios2.jpg);
+    
+}
+
+form {
+    /* Centrar el formulario en la página */
+    margin: 0 auto;
+    width: 800px;
+    /* Esquema del formulario */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    
+    background-color:antiquewhite;
+    color:black;
+    font-weight:bold;
+    opacity:0.95;
+}
+
+p{
+    margin-bottom:20px;
+}
+h1 {
+    text-align: center;
+    width: 500px;
+    margin: auto; /* Centrar horizontalmente */
+    background-color: antiquewhite;
+    color: #252932;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    opacity:0.9;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+form li + li {
+    margin-top: 1em;
+}
+
+label {
+    /* Tamaño y alineación uniforme */
+    display: inline-block;
+    width: 300px;
+    text-align: right;
+    margin-right: 5px; /* Espacio entre los elementos */
+}
+
+input,
+textarea {
+   
+    font: 1em sans-serif;
+    /* Tamaño uniforme del campo de texto */
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+
+    input:focus,
+    textarea:focus {
+        /* Destacado adicional para elementos que tienen el cursor */
+        border-color: #000;
+    }
+
+textarea {
+    /* Alinear los campos de texto multilínea con sus etiquetas */
+    vertical-align: top;
+    /* Proporcionar espacio para escribir texto */
+    height: 5em;
+}
+
+
+label.radio-label {
+     /*Estilo específico para los labels dentro de los spans */
+    text-align:right;
+    
+}
+
+#spanOculto{
+    display:none;
+}
+
+
+
+.boton-enviar {
+    color: aliceblue;
+    align-content: center;
+    background: #252932;
+    display: block; 
+    margin: 0 auto; 
+    padding: 10px 20px;
+    line-height: normal;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 50px;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+    /* Estilo cuando se pasa el mouse sobre el botón */
+    .boton-enviar:hover {
+        background: #c47c7c;
+        border-radius: 50px;
+        transform: scale(1.05); 
+        transition: transform 0.3s ease; 
+    }
+a{
+    color:black;
+}
+
+
+

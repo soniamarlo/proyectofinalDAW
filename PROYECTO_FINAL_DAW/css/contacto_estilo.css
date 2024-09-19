@@ -1,0 +1,50 @@
+﻿/* Estilos generales */
+p {
+    font-size: 16px;
+}
+h3{
+    text-align:center;
+    font-size:20px;
+    text-decoration:overline;
+}
+
+/* Estilos para la sección de contacto */
+section#contacto address {
+    font-style: normal;
+}
+/* Estilos para la sección de contacto */
+#contacto {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para la información de contacto */
+.contacto-info {
+    flex: 1;
+}
+
+/* Estilos para redes sociales y formulario */
+.redes-y-formulario {
+    flex: 1;
+    margin-left: 20px; /* Espacio entre los dos contenedores */
+}
+/* Estilos para los párrafos con la clase 'redes' */
+p.redes {
+    font-size: 20px; 
+}
+
+/* Estilos para las imágenes */
+.redes img {
+    width: 50px;
+    height: auto;
+    vertical-align: middle; 
+    margin-right: 10px; 
+}
+footer {
+    padding: 10px;
+    margin-left: 10px;
+}

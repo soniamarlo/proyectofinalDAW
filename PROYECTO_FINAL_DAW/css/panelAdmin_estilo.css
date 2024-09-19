@@ -1,0 +1,56 @@
+﻿
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+        button {
+            background-color: aquamarine;
+            padding: 10px 20px; /* Reducido el relleno para ajustar el tamaño del botón */
+            border: none; /* Eliminado el borde para un aspecto más limpio */
+            border-radius: 5px;
+            float: right;
+            margin-bottom: 20px; /* Añadido margen superior para separación con la tabla */
+        }
+
+            button a {
+                text-decoration: none; /* Quitado el subrayado del enlace */
+                color: inherit; /* Heredado el color del texto del botón */
+            }
+
+            button:hover {
+                background-color: darkturquoise;
+                transform: scale(1.1);
+                transition: transform 0.3s ease;
+            }

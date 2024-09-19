@@ -1,0 +1,1 @@
+xcopy "C:\xampp\htdocs\PROYECTO_FINAL\PROYECTO_FINAL_DAW\*.*" "C:\Users\Sonia\Documents\Ilerna.Proyecto\copia_seguridad_proyecto_DAW\*.*" /d /e /c /y /f
